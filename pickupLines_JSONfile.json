@@ -1,0 +1,55 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pick up lines",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloIntent",
+                    "slots": [],
+                    "samples": [
+                        "yo",
+                        "Howdy",
+                        "What's up",
+                        "Hi",
+                        "Hello"
+                    ]
+                },
+                {
+                    "name": "GeneratePickUpLineIntent",
+                    "slots": [],
+                    "samples": [
+                        "wow me with a pickup line",
+                        "Tell me a pick up line",
+                        "Do you know any pick up lines",
+                        "Give me a pick up line"
+                    ]
+                },
+                {
+                    "name": "WorkingProperlyIntent",
+                    "slots": [],
+                    "samples": [
+                        "are you working properly",
+                        "Is this working properly"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
